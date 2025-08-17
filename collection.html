@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Nostra</title>
+     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--fornt style-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!--fornt awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!--navbar-->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </nav>
+
+    <!--side-navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closenavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class=" side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+    <!--product-->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="products" id="products">
+            <div class="products-box">
+                <img src="img-collection/photo-1522218296581-1244648997fb.avif">
+                <p>Black Dress</p>
+            </div>
+            <div class="products-box">
+                <img src="img-collection/photo-1573583723453-e5516b51f25c.avif">
+                <p>Black colour</p>
+            </div>
+            <div class="products-box">
+                <img src="img-collection/photo-1660891950307-a427ea1bebb6.avif">
+                <p>Black T-shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="img-collection/photo-1581655353564-df123a1eb820.avif">
+                <p>White T-shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="img-collection/photo-1644483878407-f05ff59c8a38.avif">
+                <p>White Shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="img-collection/photo-1515037592547-b6323565e26e.avif">
+                <p>white dress</p>
+            </div>
+            <div class="products-box">
+                <img src="img-collection/photo-1610904497231-78537234b552.avif">
+                <p>Brown Shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="img-collection/premium_photo-1664304629152-39c7e0477dd0.avif">
+                <p>Brown fullset</p>
+            </div>
+             <div class="products-box">
+                <img src="img-collection/photo-1650126909604-eea255ff507c.avif">
+                <p>Brown jackets</p>
+            </div>
+            <div class="products-box">
+                <img src="img-collection/photo-1649163888085-9058924854cd.avif">
+                <p>Olive Green shirt</p>
+            </div>
+             <div class="products-box">
+                <img src="img-collection/photo-1676790225864-76c836e7b5d6.avif">
+                <p>Green t-shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="img-collection/photo-1574624732917-c8c7ae541132.avif">
+                <p>Green Shirt</p>
+            </div>
+        </div>
+    </div>
+
+    <!--about-->
+    <div class="about">
+        <h2 style="padding-bottom: 10px;">Nostra</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vitae nihil adipisci est inventore voluptatem.
+        </p>
+        <div>
+            <i class="fa-brands fa-instagram" style="color:#ffff;"></i>
+            <i class="fa-brands fa-twitter" style="color:#ffff;"></i>
+            <i class="fa-brands fa-facebook " style="color:#ffff;"></i>
+        </div>
+        <P>@ 2025 Nostragmail.com</P>
+    </div>
+    <script src="collection.js"></script>
+    <script src="node.js"></script>
+</body>
+
+</html>
